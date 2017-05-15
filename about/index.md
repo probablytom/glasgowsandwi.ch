@@ -1,14 +1,16 @@
 ---
-layout: full-width
+layout: page
 title: About
 ---
 
-The *Tufte-Jekyll* theme is a natural extension of the work done by [Edward Tufte](https://github.com/edwardtufte/tufte-css) and his collaborators on Github who created a CSS file that allows web writers to use the same simple and elegant style employed in his published materials.
+This is a blog about sandwiches in Glasgow.
 
-To incorporate these styles into a Jekyll theme, I have made some very slight modifications that attempt to maintain the feel of the CSS styles in his Github repo.
+It turns out that Glasgow has a pretty fantastic sandwich scene. I'm certain that that's really true of most cities. What's important is knowing *where* to look, and *what* to look for. 
 
-Note that this is a full-width layout. This was accomplished by including ```layout: full-width``` in the YAML front matter for this page. Keep in mind that all the Tufte-Jekyll sidenote and marginnote goodness will not work on full-width layouts! 
+This blog is a record of my exploration of the different sandwiches Glasgow has to offer, and what I come to appreciate in sandwiches over time{% sidenote "expensive food" "As well as a good excuse to buy expensive, delicious food..." %}!
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
+## Who are you?
 
+I'm Tom. I'm a Computing Science PhD student at Glasgow University, where I do research into things like sociotechnical systems.
 
+You can learn more about me [here](http://tom.coffee/).
