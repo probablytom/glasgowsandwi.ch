@@ -1,9 +1,10 @@
 publish:
+	make commit
 	jekyll build
 	sudo rm -rf /var/www/sandwiches
 	sudo cp -R _site /var/www/sandwiches
 	sudo chown -R www-data:www-data /var/www/sandwiches
-	make record
+	git push
 
 publish-no-commit:
 	jekyll build
