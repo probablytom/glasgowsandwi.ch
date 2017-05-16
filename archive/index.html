@@ -1,0 +1,14 @@
+---
+layout: full-width
+title: Sandwiches Reviewed
+---
+
+  <h1 class="content-listing-header sans">Sandwiches Reviewed</h1>
+  <ul class="content-listing">
+    {% for post in site.posts %}      
+        <li class="listing">
+          <a href="{{ post.url }}"><h3 class="contrast">{{ post.location_name }}</h3>:  {{ post.sandwich_name }} (<span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>)</a>
+           
+        </li>
+    {% endfor %}
+  </ul>

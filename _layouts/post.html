@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-<h1>{{ page.title}}</h1>
-<p class="subtitle">{{ page.date | date: "%B %-d, %Y" }}</p>
+<h1>{{ page.title }}</h1>
+<p class="subtitle">From <a href="{{ page.location_link }}">{{ page.location_name }}</a> --- reviewed on {{ page.date | date: "%B %-d, %Y" }}</p>
 
 {{ content }}
-
